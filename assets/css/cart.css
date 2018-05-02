@@ -1,0 +1,210 @@
+/*===================================================================================*/
+/*  Shopping Cart Page
+/*===================================================================================*/
+
+#cart-page {
+    margin-bottom: 76px;
+}
+#cart-page .widget {
+    margin: 0 0 17px 0!important;
+    padding-left: 40px;
+}
+#cart-page .widget .body {
+    padding: 7px 0;
+}
+#cart-page .widget .buttons-holder {
+    text-align: right;
+}
+#cart-page .widget .buttons-holder .simple-link {
+    color: #3d3d3d;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+#cart-page .widget .tabled-data li label {
+    min-width: 125px;
+}
+#cart-page .widget #total-price {
+    margin: 18px 0 0 0;
+    padding-bottom: 24px;
+    border-bottom: 0;
+}
+#cart-page .widget #total-price .value {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+}
+#cart-page .items-holder {
+    margin: 14px 0 0 0;
+}
+#cart-page .items-holder .close-btn {
+    display: inline-block;
+    position: absolute;
+    right: 1%;
+    top: -10%;
+}
+#cart-page .items-holder .close-btn:after {
+    color: #3d3d3d;
+    content: "\f00d";
+    font-family: fontawesome;
+}
+#cart-page .items-holder .cart-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#cart-page .items-holder .cart-item:first-child {
+    padding-top: 0;
+}
+#cart-page .items-holder .cart-item:last-child {
+    border-bottom: 0;
+}
+#cart-page .items-holder .cart-item .title {
+    padding: 17px 0 0 0;
+}
+#cart-page .items-holder .cart-item .title a {
+    line-height: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0e53a5;
+}
+#cart-page .items-holder .cart-item .brand {
+    font-size: 10px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+#cart-page .items-holder .cart-item .quantity {
+    margin: 0;
+}
+#cart-page .price {
+    font-weight: 700;
+    font-size: 22px;
+    padding: 8px 0px;
+    text-align: left;
+    color: #333;
+}
+#cart-page .le-button{
+    padding: 2px 24px;
+    font-weight: 500;
+}
+/*===================================================================================*/
+/*  Checkout Page
+/*===================================================================================*/
+
+#checkout-page .billing-address .le-checkbox {
+    display: inline-block;
+    vertical-align: top;
+}
+#checkout-page .billing-address .placeholder {} #checkout-page .billing-address form {
+    margin: 23px 0 45px 0;
+}
+#checkout-page .billing-address .le-input {
+    padding: 9px;
+}
+#checkout-page .billing-address .field-row {
+    margin-bottom: 25px;
+}
+#checkout-page #create-account {
+    font-size: 13px;
+    line-height: 24px;
+}
+#checkout-page #shipping-address {
+    margin: 66px 0 0 0;
+}
+#checkout-page #shipping-address form {
+    margin: 24px 0 0 0;
+    font-size: 14px;
+}
+#checkout-page #your-order {
+    margin: 58px 0 0 0;
+}
+#checkout-page #your-order .order-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 24px 0 25px 0;
+}
+#checkout-page #your-order .order-item:first-child {
+    margin-top: 16px;
+}
+#checkout-page #your-order .order-item .qty {
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    margin: 14px 0 0 0;
+    color: #3d3d3d;
+}
+#checkout-page #your-order .order-item .title {
+    font-weight: 600;
+}
+#checkout-page #your-order .order-item .title a {
+    margin: 0 0 0 -42px;
+}
+#checkout-page #your-order .order-item .title,
+#checkout-page #your-order .order-item .title a {
+    line-height: 27px;
+    color: #3d3d3d;
+}
+#checkout-page #your-order .order-item .brand {
+    margin: 0 0 0 -42px;
+    font-size: 10px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+#checkout-page #your-order .order-item .price {
+    text-align: right;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 46px;
+}
+#checkout-page #subtotal-holder {
+    margin: 44px 0 0 0;
+}
+#checkout-page #subtotal-holder .radio-group .radio-label {
+    margin-bottom: 12px;
+}
+#checkout-page #subtotal-holder .tabled-data li label {
+    min-width: 230px;
+}
+#checkout-page #subtotal-holder .tabled-data li .value {
+    width: 140px;
+}
+#checkout-page #total-field {
+    margin-top: 11px;
+}
+#checkout-page #total-field label {
+    line-height: 24px;
+}
+#checkout-page #total-field .value {
+    font-size: 21px;
+    line-height: 30px;
+}
+#checkout-page .place-order-button {
+    text-align: right;
+    margin-top: 23px;
+}
+.register label {
+    margin-top: 20px;
+}
+.register h1 {
+    padding: 0 15px;
+}
+#payment-method-options {
+    margin: 90px 0 0 0;
+}
+#payment-method-options .payment-method-option {
+    padding: 26px 0 25px;
+    border-bottom: 1px solid #e0e0e0;
+}
+#payment-method-options .payment-method-option:first-child {
+    padding-top: 0;
+}
+#payment-method-options .payment-method-option .radio-label {
+    vertical-align: top;
+    margin-top: -3px;
+    font-size: 16px;
+}
+#payment-method-options .payment-method-option .fake-box {
+    margin-right: 20px;
+}
+#payment-method-options .payment-method-option .value {} #payment-method-options .payment-method-option .value p {
+    text-transform: none;
+}

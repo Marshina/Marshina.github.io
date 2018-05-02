@@ -1,0 +1,110 @@
+
+/*===================================================================================*/
+/*  Breadcrumb
+/*===================================================================================*/
+
+.breadcrumb-nav-holder {
+    display: inline-block;
+    float: left;
+}
+.breadcrumb-nav-holder.minimal .breadcrumb-item:before,
+.breadcrumb-nav-holder.minimal .breadcrumb-item:after {
+    display: none;
+}
+.breadcrumb-nav-holder.minimal .breadcrumb-item > a {
+    background-color: #fff;
+    padding: 10px 18px;
+}
+.breadcrumb-nav-holder .breadcrumb-item {
+    display: inline-block !important;
+    float: left;
+    position: relative!important;
+    display: table-cell;
+}
+.breadcrumb-nav-holder .breadcrumb-item.current:after,
+.breadcrumb-nav-holder .breadcrumb-item.current:before {
+    display: none;
+}
+.breadcrumb-nav-holder .breadcrumb-item.current.gray a {
+    color: #3d3d3d;
+}
+.breadcrumb-nav-holder .breadcrumb-item:last-child a {
+    border-right: 0;
+}
+.breadcrumb-nav-holder .breadcrumb-item.open:after,
+.breadcrumb-nav-holder .breadcrumb-item:focus:after,
+.breadcrumb-nav-holder .breadcrumb-item:hover:after {
+    border-color: transparent transparent transparent #ececec !important;
+}
+.breadcrumb-nav-holder .breadcrumb-item.open > a,
+.breadcrumb-nav-holder .breadcrumb-item:focus > a,
+.breadcrumb-nav-holder .breadcrumb-item:hover > a {
+    background-color: #ececec;
+}
+.breadcrumb-nav-holder .breadcrumb-item:before,
+.breadcrumb-nav-holder .breadcrumb-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.breadcrumb-nav-holder .breadcrumb-item:before {
+    top: 39%;
+    right: -10px;
+    border-width: 7.5px 0 7.5px 10px;
+    border-color: transparent transparent transparent #e0e0e0;
+}
+.breadcrumb-nav-holder .breadcrumb-item:after {
+    top: 39%;
+    right: -8px;
+    border-width: 7.5px 0 7.5px 10px;
+    border-color: transparent transparent transparent #f9f9f9;
+}
+.breadcrumb-nav-holder .breadcrumb-item .dropdown-menu {
+    min-width: 100%;
+    top: 97%!important;
+    left: 0!important;
+    right: auto!important;
+}
+.breadcrumb-nav-holder .breadcrumb-item .dropdown-menu li > a {
+    padding: 8px 16px;
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+.breadcrumb-nav-holder .breadcrumb-item .dropdown-menu li > a:last-child {
+    border-bottom: none!important;
+}
+.breadcrumb-nav-holder .breadcrumb-item .dropdown-menu:before {
+    display: none;
+}
+.breadcrumb-nav-holder .breadcrumb-item > a {
+    letter-spacing: -1px;
+    display: inline-block;
+    background-color: #f9f9f9;
+    padding: 20px 15px;
+    color: #3d3d3d;
+    border-right: 1px solid #e0e0e0;
+    position: relative;
+}
+.breadcrumb-nav-holder .breadcrumb-item > a.dropdown-toggle:after {
+    content: "\f0da";
+    color: #3d3d3d;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 0 0 5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+#breadcrumb-alt {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 27px;
+}
